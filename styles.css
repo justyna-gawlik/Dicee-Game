@@ -1,0 +1,52 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  display: inline-block;
+  padding: 30px;
+}
+
+body {
+  font-family: "Dancing Script", cursive;
+  background-color: black;
+}
+
+h1 {
+  margin: 20px;
+  font-family: "Dancing Script", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: white;
+}
+
+p {
+  font-size: 2rem;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn.btn-outline-warning.btn-lg {
+  padding-bottom: 10px;
+}
+
+.page-footer.font-small.indigo {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  color: white;
+  height: 2%;
+  bottom: 0 !important;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1rem !important;
+  padding-top: 50px;
+}
