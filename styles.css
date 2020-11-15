@@ -1,3 +1,10 @@
+
+body {
+  font-family: "Dancing Script", cursive;
+  background-color: black;
+}
+
+
 .container {
   width: 70%;
   margin: auto;
@@ -9,32 +16,42 @@
   padding: 30px;
 }
 
-body {
-  font-family: "Dancing Script", cursive;
-  background-color: black;
-}
-
 h1 {
-  margin: 20px;
+  margin: 15px;
   font-family: "Dancing Script", cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: white;
+  font-size: 7rem !important;
+  color: #eff48e;
 }
 
 p {
   font-size: 2rem;
-  color: white;
+  color: #2ec1ac;
   font-family: "Dancing Script", cursive;
 }
 
-.img {
-  width: 20px;
-  height: 20px;
+.img1 {
+  width: 170px;
+  height: 170px;
 }
 
-.btn.btn-outline-warning.btn-lg {
+.img2 {
+  width: 170px;
+  height: 170px;
+}
+
+.btn.btn-lg {
+  margin-top: 20px;
   padding-bottom: 10px;
+  border-color: #2ec1ac;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #2ec1ac;
+}
+
+.btn.btn-lg:hover {
+  background-color: #2ec1ac;
+  color: black;
 }
 
 .page-footer.font-small.indigo {
@@ -49,4 +66,97 @@ p {
 footer p {
   font-size: 1rem !important;
   padding-top: 50px;
+}
+
+@media (orientation: portrait) {
+
+  .container {
+    width: 100%;
+
+  }
+
+  h1 {
+    margin-top: 50px;
+min-height: 150px;
+    font-size:3rem !important;
+  }
+  
+  p {
+    font-size: 1rem !important;
+  }
+  .dice {
+    display: inline-block;
+    padding: 20px;
+  }
+  .img1 {
+    width: 80px !important;
+    height:80px !important;
+  }
+  .img2 {
+    width: 80px !important;
+    height:80px !important;
+  }
+
+  .btn.btn-lg {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .btn.btn-lg:hover {
+    background-color: #2ec1ac;
+    color: black;
+  }
+  
+  .page-footer.font-small.indigo {
+    height: 1%;
+  }
+  
+  footer p {
+    font-size: 0.5rem !important;
+    padding-top: 100px;
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    margin-top: 10px;
+    font-size:2rem !important;
+  }
+  
+  p {
+    font-size: 1rem !important;
+  }
+  .dice {
+    display: inline-block;
+    padding: 10px;
+  }
+  .img1 {
+    width: 80px !important;
+    height:80px !important;
+  }
+  .img2 {
+    width: 80px !important;
+    height:80px !important;
+  }
+
+  .btn.btn-lg {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1rem;
+  }
+  
+  .page-footer.font-small.indigo {
+    height: 1%;
+  }
+  
+  footer p {
+    font-size: 0.5rem !important;
+    padding-top: 20px;
+  }
 }
