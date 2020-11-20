@@ -4,13 +4,13 @@ This is a simple Javascript application that will entertain your free time. If y
 
 ## Table of contents
 
-- [Screenshots](#screenshots)
+- [Preview](#preview)
 - [Setup](#setup)
 - [Inspiration](#inspiration)
 
-## Screenshots
+## Preview
 
-![Example screenshot](./diceegame.png)
+![](dicee.gif)
 
 ## Setup
 
