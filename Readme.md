@@ -6,7 +6,7 @@ This is a simple Javascript application that will entertain your free time. If y
 
 ## Setup
 
-To run this project install it locally and open index.html live server using for example Visual Studio Code or Atom.
+To run this project install it locally and open dicee.html live server using for example Visual Studio Code or Atom.
 
 You can use it also here:
 
