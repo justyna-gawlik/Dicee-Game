@@ -8,7 +8,7 @@ This is a simple Javascript application that will entertain your free time. If y
 
 To run this project install it locally and open dicee.html live server using for example Visual Studio Code or Atom.
 
-You can use it also here:
+You can use it also here: http://justynagawlik.pl/
 
 ## Inspiration
 
